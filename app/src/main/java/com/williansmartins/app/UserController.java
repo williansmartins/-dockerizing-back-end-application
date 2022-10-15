@@ -7,21 +7,21 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     @GetMapping
     public String getUsers(){
-        return "Retorno do metodo getUser - HTTP GET";
+        return "HTTP GET";
     }
  
     @PostMapping
     public String createUser(){
-        return "Retorno do metodo createUser - HTTP POST";
+        return "HTTP POST";
     }
  
     @PutMapping
     public String updateUser(){
-        return "Retorno do metodo updateUser - HTTP PUT";
+        return "HTTP PUT";
     }
  
     @DeleteMapping
     public String deleteUser(){
-        return "Retorno do metodo deleteUser - HTTP DELETE";
+        return "HTTP DELETE";
     }
 }
