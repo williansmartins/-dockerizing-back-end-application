@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding> UTF-8 </project.build.sourceEncoding>
-		<start-class> com.williansmartins.Application </start-class>
+		<start-class> com.williansmartins.app.Application </start-class>
 		<docker.image.name> williansmartins/dockerize-spring </docker.image.name>
 		<docker.image.tag> latest </docker.image.tag>
 	</properties>
