@@ -15,10 +15,18 @@ https://start.spring.io/
 
 3. Implement some methods
 ```
-...
+    @GetMapping
+    public String getUsers(){
+        return "HTTP GET";
+    }
 ```
 
-4. Generate dist folder
+4. Run locally
 ```
-...
+mvn spring-boot:run
+```
+
+5. Run locally
+```
+http://localhost:8080/users
 ```
